@@ -1,0 +1,238 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  /* border: 1px solid black; */
+  width: 100vw;
+  height: 60vh;
+  background-image: url(https://discoverylandco.com/imager/images/9997/Bakers-Bay-Golf-and-Ocean-Club_35d31212c7a2d4dccdff99afa3f88af5.png);
+  background-size: 100% 100%;
+  display: flex;
+  flex-flow: row wrap;
+
+}
+.menu {
+  width: 100vw;
+  height: 22vh;
+  overflow: auto;
+}
+.main {
+  width: 100vw;
+  height: 120vh;
+  /* border: solid gray; */
+  display: flex;
+  flex-wrap: wrap;
+}
+.imglabel {
+  width: 33.1%;
+  height: 50%;
+  /* border: 1px solid green; */
+}
+.img {
+  width: 100%;
+  height: 80%;
+  /* border: 1px solid blueviolet; */
+}
+.label {
+  width: 100%;
+  height: 20%;
+  /* border: 1px solid grey; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .footer {
+  width: 100vw;
+  height: 70vh;
+  background-color: #161f1e;
+  display: flex;
+  flex-wrap: wrap;
+  
+  border: solid gray;
+}
+.grid{
+    width: 50%;
+    height: 100%;
+}
+.grid > .logofooter{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+} */
+
+.a{
+    color: white;
+
+    
+}
+.label{
+    background-color: black;
+    color: white;
+    font-size: 20px;
+}
+.navbar li{
+  float:left;
+  list-style: none; 
+  margin: 13px 20px;
+}
+.navbar li a{
+  padding: 3px 3px;
+  text-decoration: none;
+  color: white;
+}
+.navbar{
+  width: 50%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-right: 110px;
+  margin-top:60px ;
+}
+.navbar1{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-left: 60px;
+  margin-bottom: 60px;
+  padding-bottom: 10px;
+}
+.container h1{
+  /* border: solid red; */
+  color: white;
+  font-size: 60px;
+  margin-top: 0px;
+  margin-left: 120px;
+}
+body{
+  font-family: ui-monospace;
+}
+.container{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+
+}
+.container .nav-gallery{
+  margin-top: -100px;
+}
+/* .grid > .logofooter{
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-top: 120px;
+  margin-left: 80px;
+}
+.grid1 > .footercontainer{
+  width: 33.3%;
+
+}
+
+.grid1{
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+}
+.a{
+  color: white;
+}
+.containerfoot{
+  max-width: 1170px;
+  background-color: red;
+  margin: auto;
+}
+ul {
+  list-style: none;
+}
+.row{
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-col{
+
+}
+.containerfoot{
+  
+} */
+.footer{
+  width: 100vw;
+  height: 70vh;
+  background-color: #161f1e;
+  display: flex;
+  flex-wrap: wrap;
+}
+.footer-row1{
+  /* background-color: red; */
+  width: 40%;
+  height: 100%;
+  display: flex;
+  flex-flow: row wrap;
+}
+.footer-row2{
+  /* background-color: rgb(0, 0, 0); */
+  width: 60%;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+
+}
+.footer-col1{
+  /* background-color: aliceblue; */
+  width: 32.3%;
+  /* height: 100%; */
+
+}
+.footer-col2{
+  /* background-color: rgb(31, 145, 245); */
+  width: 32.3%;
+  height: 100%;
+  
+}
+.footer-col3{
+  /* background-color: rgb(253, 242, 84); */
+  width: 32.3%;
+  height: 100%;
+  
+}
+.footer-row1 > .img-logo {
+  margin-top: 120px;
+  margin-left: 80px;
+}
+* li{
+list-style: none;
+margin-top: 8px;
+}
+* a{
+  color: white;
+}
+.footer-col1 div{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin: 120px;
+}
+.footer-col2 div{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin: 120px;
+}
+.footer-col3 div{
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin: 120px;
+}
