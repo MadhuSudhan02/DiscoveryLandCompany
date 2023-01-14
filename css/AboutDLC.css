@@ -1,0 +1,513 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url(https://discoverylandco.com/imager/images/9928/outdoor-adventures-in-the-caribbean_2cbd80a0345be3b5a0b7649a1a2d057f.jpg);
+  /* background: black; */
+  /* background-color: black; */
+  display: flex;
+  flex-flow: row wrap;
+  /* background-color: rgba(0, 0, 0, 0.096); */
+}
+.header a{
+  text-decoration: none;
+}
+.container {
+  /* background-color: aqua; */
+  width: 100%;
+  height: 20%;
+  display: flex;
+  flex-flow: row wrap;
+}
+.container-logo {
+  /* background-color: aliceblue; */
+  position: absolute;
+  top: 60px;
+  left: 120px;
+}
+.container-nav {
+  /* background-color: brown; */
+  display: flex;
+  flex-flow: row wrap;
+  position: absolute;
+  right: 120px;
+  top: 40px;
+  justify-content: space-between;
+}
+.container-nav li {
+  display: flex;
+  float: left;
+  list-style: none;
+  justify-content: space-between;
+}
+.container-nav li a {
+  color: white;
+  margin: 40px;
+  justify-content: space-between;
+}
+.line {
+  /* display: flex;
+    flex-flow: row wrap; */
+  width: 30%;
+  position: relative;
+  font-size: 36px;
+  color: white;
+  font-weight: 100;
+  /* justify-content: flex-end; */
+  left: 350px;
+  /* align-items: center; */
+}
+.main-row1 {
+  background-color: white;
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+}
+.main-row1 div {
+  width: 80%;
+  height: 80%;
+  /* background-color: blue; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  font-weight: 100;
+}
+.main-row1 p {
+  font-size: 40px;
+  text-align: center;
+  font-weight: 100;
+}
+.main-row2 {
+  width: 100vw;
+  height: 120vh;
+  /* background-color: black; */
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-around;
+}
+.main2 {
+  width: 40%;
+  height: 80%;
+  /* background-color: aliceblue; */
+  display: flex;
+  flex-flow: row wrap;
+  position: relative;
+  left: 100px;
+}
+.main2 .head {
+  width: 40%;
+  position: relative;
+  top: 80px;
+  font-size: 40px;
+  font-weight: 100;
+}
+
+.main2 .para {
+  width: 70%;
+  position: relative;
+  /* top: 20px; */
+  bottom: 100px;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-evenly;
+  /* justify-content: center; */
+
+}
+.main2 .para p {
+  text-align: left;
+  text-decoration: none;
+  /* word-spacing: 18px; */
+  line-height: 30px;
+  color: gray;
+  position: relative;
+  top: 40px;
+}
+.sub2 {
+  width: 40%;
+  height: 76%;
+  position: relative;
+  bottom: 80px;
+  right: 60px;
+  background-color: burlywood;
+}
+.sub1 h2 {
+  position: absolute;
+  /* text-align: left; */
+  /* right: 4px; */
+}
+.main-row2 .sub1 div p {
+  width: 30%;
+  position: absolute;
+  text-align: center;
+  top: 4px;
+  /* text-align: center; */
+  /* top: 10px; */
+}
+.sub2 img {
+  width: 100%;
+  height: 120%;
+}
+.main-row3 {
+  width: 100vw;
+  height: 160vh;
+  background-color: black;
+}
+.black1 {
+  /* background-color: blueviolet; */
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  /* justify-content: space-evenly; */
+  align-items: center;
+}
+.black1 .black-sub1 {
+  width: 40%;
+  height: 80%;
+  /* background-color: aqua; */
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+.black1 .black-sub1 h2 {
+  color: white;
+  font-weight: 100;
+  font-size: 36px;
+  position: relative;
+  top: 50px
+}
+.black1 .black-sub2 {
+  width: 38%;
+  height: 80%;
+  /* background-color: blue; */
+  top: 20px;
+
+}
+.black1 .black-sub2 p {
+   color: white;
+  /* font-weight: 100; */
+  /* font-size: 36px; */
+  position: relative;
+  top: 50px ;
+  line-height: 24px;
+  text-align: left;
+  
+}
+.black-sub2 .button-text button{
+    width: 150px;
+    height: 60px;
+    color: white;
+    background-color: transparent;
+    position: relative;
+    top: 100px;
+    /* padding: 60px  ;
+    margin: 60px; */
+    border: 1px solid white;
+    /* border-radius: 20px; */
+
+}
+.black2 {
+  /* background-color: brown; */
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+  align-items: center;
+
+}
+.black2 .black2-img {
+  width: 80%;
+  height: 80%;
+  background-image: url(https://discoverylandco.com/imager/images/9385/Screenshot-2022-01-21-at-09.47-3_220404_102430_fa91343311d004704fa3ce6a3567953a.jpg);
+  background-size: 100%;
+  position: relative;
+  bottom: 100px;
+
+}
+.main-row4 {
+    /* background-color: blue; */
+    width: 100vw;
+    height: 120vh;
+
+}
+
+.row4-img {
+    position: relative;
+    top: 120px;
+}
+.row4-grid1 {
+    /* background-color: blue; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+}
+.grid1-img{
+    width: 32%;
+    height: 60%;
+    position: relative;
+    top: 200px;
+    left: 50px;
+}
+.main-row5-imgtext {
+    /* background-color: blueviolet; */
+    width: 30%;
+    height: 80%;
+    position: relative;
+    top: 250px;
+    display: flex;
+    flex-flow: row wrap;
+
+}
+.imgtext{
+  /* background-color: aquamarine; */
+   width: 32%;
+    height: 80%;
+    position: relative;
+    top: 200px;
+    right: 80px;
+
+}
+.imgtext-text{
+    /* background-color: rgb(17, 141, 250); */
+    width: 90%;
+    height: 30%;
+    position: relative;
+    top: 100px;
+}
+.imgtext-text .head {
+  color: black;
+  font-size: 40px;
+  font-weight: 100;
+
+}
+.imgtext-text .para {
+  color: gray;
+  position: relative;
+  top: 20px;
+  line-height: 24px;
+  
+}
+.imgtext-img{
+    width: 100%;
+    height: 35%;
+    position: relative;
+    top: 260px;
+}
+.main-row5 {
+    /* background-color: rgb(255, 240, 35); */
+    width: 100vw;
+    height: 160vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+}
+.back-img{
+    width: 100vw;
+    height: 70vh;
+    background-image: url(https://discoverylandco.com/imager/images/160/What_we_do_footer_2_5dabbd1a34149dcaed83515ff1526a0f.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    /* justify-content: space-between; */
+}
+.back-img .back-text{
+    position: relative;
+    bottom: 40px;
+    font-weight: 100;
+    font-size: 24px;
+
+
+}
+.back-img .back-text h2{
+    color: white;
+    font-size: 50px;
+    font-weight: 100;
+    
+}
+.back-img .button-text {
+    position: relative;
+    bottom: 10px;
+    
+}
+.back-img .button-text button{
+    width: 150px;
+    height: 60px;
+    color: rgb(212, 212, 212);
+    background-color: transparent;
+    position: relative;
+    /* padding: 60px  ;
+    margin: 60px; */
+    border: 1px solid rgb(199, 199, 199);
+    /* border-radius: 20px; */
+
+}
+/* footer */
+.footer{
+    width: 100vw;
+    height: 70vh;
+    background-color: #161f1e;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-row1{
+    /* background-color: red; */
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .footer-row2{
+    /* background-color: rgb(0, 0, 0); */
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  
+  }
+  .footer-col1{
+    /* background-color: aliceblue; */
+    width: 33.3%;
+    text-decoration: none;
+    /* height: 100%; */
+  
+  }
+  .footer-col2{
+    /* background-color: rgb(31, 145, 245); */
+    width: 33.3%;
+    height: 100%;
+    
+  }
+  .footer-col3{
+    /* background-color: rgb(253, 242, 84); */
+    width: 33.3%;
+    height: 100%;
+    
+  }
+  .footer-row1 > .img-logo {
+    margin-top: 120px;
+    margin-left: 80px;
+  }
+  * li{
+  list-style: none;
+  margin-top: 8px;
+  }
+  * a{
+    color: white;
+    /* line-height: 20px; */
+  }
+  .footer-col1 div{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 120px;
+  }
+  .footer-col2 div{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 120px;
+  }
+  .footer-col3 div{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 120px;
+    text-decoration: none;
+  }
+  .footer a {
+    text-decoration: none;
+    line-height: 20px;
+    font-size: 16px;
+    
+  }
+  .main-row6-imgtext {
+    /* background-color: blueviolet; */
+    width: 30%;
+    height: 80%;
+    position: relative;
+    top: 250px;
+    display: flex;
+    flex-flow: row wrap;
+
+}
+.imgtext6{
+  /* background-color: aquamarine; */
+   width: 32%;
+    height: 80%;
+    position: relative;
+    top: 200px;
+    left: 80px;
+    order: -1;
+    
+
+}
+.imgtext6-text{
+    /* background-color: rgb(17, 141, 250); */
+    width: 90%;
+    height: 30%;
+    position: relative;
+    top: 100px;
+}
+.imgtext6-text .head {
+  color: black;
+  font-size: 40px;
+  font-weight: 100;
+
+}
+.imgtext6-text .para {
+  color: gray;
+  position: relative;
+  top: 20px;
+  line-height: 24px;
+  
+}
+.imgtext6-img{
+    width: 100%;
+    height: 35%;
+    position: relative;
+    top: 260px;
+}
+.main-row6 {
+    /* background-color: rgb(255, 240, 35); */
+    width: 100vw;
+    height: 160vh;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+
+}
+.grid1-img6{
+  width: 32%;
+  height: 60%;
+  position: relative;
+  top: 200px;
+  right: 50px;
+  order: 2;
+}
