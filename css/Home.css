@@ -1,0 +1,381 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header{
+    width: 100vw;
+    height: 100vh;
+}
+.vedio{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    left: 0;
+    z-index: -1;
+    object-fit: cover;
+}
+.nav{
+    /* background-color: blue; */
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-flow: row wrap;
+}
+.nav .nav1{
+    /* background-color: blueviolet; */
+    position: relative;
+    /* top: 80px; */
+    /* bottom: 40px; */
+    top: 10px;
+
+
+}
+.nav1 img{
+    /* background-color: blueviolet; */
+    position: absolute;
+    top: 10px;
+    left:120px ;
+
+
+}
+.nav2{
+    /* background-color: rgb(55, 139, 52); */
+    position: absolute;
+    top: 0px;
+    right: 120px;
+   
+    
+
+}
+.nav2 li{
+    /* display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between; */
+    float: left;
+    list-style: none;
+    margin: 40px;
+
+}
+.nav .nav2 li a{
+    display: flex;
+    flex-flow: row wrap;
+    /* justify-content: space-between; */
+    text-decoration: none;
+    color: white;
+    
+  
+
+}
+.heading{
+    width: 30%;
+    /* background-color: aquamarine; */
+    font-size: 40px;
+    font-weight: 100;
+    line-height: 50px;
+    color: white;
+    position: absolute;
+    top: 250px;
+    left: 350px;
+
+}
+.subtitle{
+    /* background-color: red; */
+    position: absolute;
+    bottom: 60px;
+    left: 120px;
+   
+
+}
+.subtitle h3{
+    color: white;
+    font-size: 24px;
+    font-weight: 100;
+    /* margin: 20px; */
+    position: relative;
+    bottom: 20px;
+    
+}
+.subtitle h6{
+    color: gray;
+    font-size: 16px;
+}
+.main-row1{
+    width: 100vw;
+    height: 140vh;
+    background-image: url(https://discoverylandco.com/imager/images/287/background_imagev2_3580431e48aedf97dcedf972d1481942.jpg);
+    display: flex;
+    flex-flow: row wrap;
+}
+.imgtext6{
+    /* background-color: aquamarine; */
+     width: 32%;
+      height: 80%;
+      position: relative;
+      top: 60px;
+      left: 160px;
+      order: -1;
+      
+  
+  }
+  .imgtext6-text{
+      /* background-color: rgb(17, 141, 250); */
+      width: 90%;
+      height: 30%;
+      position: relative;
+      top: 100px;
+  }
+  .imgtext6-text .head {
+    color: black;
+    width: 250px;
+    font-size: 40px;
+    font-weight: 100;
+  
+  }
+  .imgtext6-text .para {
+    color: gray;
+    position: relative;
+    top: 20px;
+    line-height: 24px;
+    
+  }
+  .imgtext6-img{
+      width: 100%;
+      height: 35%;
+      position: relative;
+      top: 260px;
+  }
+  .main-row6 {
+      /* background-color: rgb(255, 240, 35); */
+      width: 100vw;
+      height: 160vh;
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: space-around;
+  
+  }
+  .grid1-img6{
+    width: 32%;
+    height: 60%;
+    position: relative;
+    top: 140px;
+    left: 300px;
+    order: 2;
+  }
+  .main-row2{
+    width: 100vw;
+    height: 60vh;
+    background-color: rgb(233, 233, 233);
+  }
+
+  .head2{
+    color: black;
+    width: 250px;
+    font-size: 40px;
+    font-weight: 100;
+    position: relative;
+    top: 140px;
+    left: 160px;
+
+  }
+  .para2{
+    color: gray;
+    width: 500px;
+    position: relative;
+    top: 180px;
+    left: 160px;
+
+  }
+  .main-row3{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+  }
+  .row3-col1{
+    background-color: blue;
+    width: 50%;
+    height: 70%;
+    display: flex;
+    flex-flow: row wrap;
+    /* justify-content: flex-end; */
+  }
+  .col1-temp{
+    background-color: black;
+    width: 60%;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+
+  }
+  .col1-temp h6{
+    color: gray;
+    width: 60%;
+    font-size: 12px;
+    position: relative;
+    top: 270px;
+  }
+  .col1-temp h2{
+    color: white;
+    width: 60%;
+    font-size: 32px;
+    position: relative;
+    top: 80px;
+  }
+
+  .col1-img{
+    width: 40%;
+  }
+  .main-row4{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-flow: row wrap;
+
+  }
+  .row4-col1{
+    width: 33.3%;
+    background-image: url(https://discoverylandco.com/imager/images/11020/amazing-pool-2_fc98236fcd7afd38ca0fd181cf61bcb6.jpg);
+    background-size: 100% 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    
+
+  }
+  .row4-col1 h2{
+    color: white;
+    font-size: 44px;
+    font-weight: 100;
+    position: relative;
+    bottom: 40px;
+
+   
+  }
+  .row4-col2{
+    width: 33.3%;
+    background-size: 100% 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://discoverylandco.com/imager/images/729/lifestyle_slider_190716_095537_fc98236fcd7afd38ca0fd181cf61bcb6.jpg);
+}
+.row4-col2 h2{
+    color: white;
+    font-size: 44px;
+    font-weight: 100;
+    position: relative;
+    bottom: 40px;
+
+   
+  }
+  .row4-col3{
+    width: 33.3%;
+    background-size: 100% 100%;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://discoverylandco.com/imager/images/730/wellness_slider_190716_095551_90f8ce634cc6ad7a15d605007f03ee5c.jpg);
+  }
+  .row4-col3 h2{
+    color: white;
+    font-size: 44px;
+    font-weight: 100;
+    position: relative;
+    bottom: 40px;
+
+   
+  }
+  /* footer */
+.footer{
+    width: 100vw;
+    height: 70vh;
+    background-color: #161f1e;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .footer-row1{
+    /* background-color: red; */
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-flow: row wrap;
+  }
+  .footer-row2{
+    /* background-color: rgb(0, 0, 0); */
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+  
+  }
+  .footer-col1{
+    /* background-color: aliceblue; */
+    width: 33.3%;
+    text-decoration: none;
+    /* height: 100%; */
+  
+  }
+  .footer-col2{
+    /* background-color: rgb(31, 145, 245); */
+    width: 33.3%;
+    height: 100%;
+    
+  }
+  .footer-col3{
+    /* background-color: rgb(253, 242, 84); */
+    width: 33.3%;
+    height: 100%;
+    
+  }
+  .footer-row1 > .img-logo {
+    margin-top: 120px;
+    margin-left: 80px;
+  }
+  * li{
+  list-style: none;
+  margin-top: 8px;
+  }
+  * a{
+    color: white;
+    /* line-height: 20px; */
+  }
+  .footer-col1 div{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 120px;
+  }
+  .footer-col2 div{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 120px;
+  }
+  .footer-col3 div{
+    display: flex;
+    flex-wrap: wrap;
+    list-style: none;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    margin: 120px;
+    text-decoration: none;
+  }
+  .footer a {
+    text-decoration: none;
+    line-height: 20px;
+    font-size: 16px;
+    
+  }
